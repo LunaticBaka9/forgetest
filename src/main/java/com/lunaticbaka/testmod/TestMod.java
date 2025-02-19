@@ -41,6 +41,7 @@ public class TestMod
     {
         if(event.getTab() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.BLACK_OPAL);
+            event.accept(ModItems.RAW_BLACK_OPAL);
         }
     }
 
